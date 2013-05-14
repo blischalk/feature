@@ -7,16 +7,16 @@ require "feature/version"
 Gem::Specification.new do |s|
   s.name        = "feature"
   s.version     = Feature::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Brett Lischalk"]
+  s.email       = ["brett@brettlischalk.com"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Feature."
-  s.description = "TODO: Description of Feature."
+  s.summary     = "Define core Feature functionality"
+  s.description = "Define core Feature functionality"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.2.13"
+  s.add_dependency "rails", "~> 4.0.0.beta1"
   # s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
