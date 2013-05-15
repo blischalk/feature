@@ -1,7 +1,5 @@
-module CompliantFeature
-  class Provides < Feature::Provides
-    def permissions
-      [[1, :read, 'Post']]
-    end
+module Feature
+  class CompliantFeatureDefinition
+    include Feature::Provides
   end
 end

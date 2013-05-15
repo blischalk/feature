@@ -1,9 +1,12 @@
 module Feature
-  class Provides
-    def self.permissions
+  module Provides
+    def name
+      self.class.parent.to_s
+    end
+    def permissions
       []
     end
-    def self.widgets
+    def widgets
       []
     end
   end
