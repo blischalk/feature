@@ -1,5 +1,8 @@
 module Feature
-  class Provides
+  module Provides
+    def name
+      self.class.parent.to_s
+    end
     def permissions
       []
     end
